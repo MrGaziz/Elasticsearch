@@ -1,8 +1,6 @@
 package com.practice.elastic;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.stereotype.Component;
@@ -12,12 +10,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
 @Builder
-@Component
+@Data
 @Getter
 @Setter
-@Entity
-
 @Document(indexName = "my_index", type = "user")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Person {
 
 	@Id

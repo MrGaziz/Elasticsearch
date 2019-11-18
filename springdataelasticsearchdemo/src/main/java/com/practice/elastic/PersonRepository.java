@@ -6,10 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Qualifier("personRestController")
- @Repository
-  interface PersonRepository extends ElasticsearchRepository<Person, Integer> {
+@Repository
+public interface PersonRepository extends ElasticsearchRepository<Person, Integer> {
   List<Person> findPersonByAge(Integer age);
   List<Person> findPersonByNameAndAge(String name,Integer age);
-
  }
