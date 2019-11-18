@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/springdataelasticsearchdemo.iml" filepath="$PROJECT_DIR$/.idea/springdataelasticsearchdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdataelasticsearchdemo/springdatajpademo.iml" filepath="$PROJECT_DIR$/springdataelasticsearchdemo/springdatajpademo.iml" />
+    </modules>
+  </component>
+</project>
